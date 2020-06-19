@@ -1,0 +1,141 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #F2F1E9;
+}
+
+
+.home {
+	background: url(images/banner.png) no-repeat center center;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.landing-text h1 {
+	font-size: 300%;
+	font-weight: 700;
+	color: yellow;
+}
+
+.btn-outline-light {
+	border-color: yellow;
+}
+
+.menuFixo {
+    position: fixed;
+    top: 0px;
+    background-color: #AA0E0E;
+}
+
+/*.container {
+	background-color: #FFFEF5;
+	height: 100vh;
+}*/
+
+h2 {
+	font-weight: 700;
+	color: #D60F0F;
+}
+
+.infos {
+	background-color: #F2F1E9;
+}
+
+.infosInvestimento {
+	background-color: #237F3E;
+}
+
+.fixed {
+	background: url(images/background_fixo.png) no-repeat center center;
+	display: table;
+	height: 40%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+
+#bottom {
+	height: 30%;
+}
+
+.rodape {
+	background-color: #AA0E0E;
+
+}
+
+/*.investimento {
+	background-color: #AA0E0E;
+	position: relative;
+}*/
+
+.investimento h3 {
+	font-weight: 700;
+}
+
+
+/*
+.infos {
+	display: flex;
+}
+*/
+
+.cor-especial {
+	color: black;
+}
+
+.card-header {
+	text-decoration: none;
+}
+
+.tituloCards{
+	padding-top: 2em;
+
+}
+
+/*TESTE placeholder */
+
+.input-field {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.input-field input {
+  margin: 10px 0;
+  width: 200px;
+  display: block;
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #1abc9c;
+  -webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+  background-position: -200px 0;
+  background-size: 200px 100%;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.input-field input:focus {
+  box-shadow: none;
+  outline: none;
+  background-position: 0 0;
+}
+
+.input-field label {
+  color: #9e9e9e;
+  font-size: 12px;
+  position: absolute;
+  top: 12px;
+  transition: .2s ease-out;
+}
