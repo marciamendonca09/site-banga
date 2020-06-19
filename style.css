@@ -6,7 +6,7 @@ html, body {
 
 
 .home {
-	background: url(images/banner.png) no-repeat center center;
+	background: url(banner.png) no-repeat center center;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -56,7 +56,7 @@ h2 {
 }
 
 .fixed {
-	background: url(images/background_fixo.png) no-repeat center center;
+	background: url(background_fixo.png) no-repeat center center;
 	display: table;
 	height: 40%;
 	position: relative;
